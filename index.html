@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+   <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>Gopi Chand</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello! My name is <b>GOPI CHAND</b>, and I am a passionate web developer who loves creating modern and responsive websites. 
+            I am constantly looking for new opportunities to grow my skills and help others achieve their digital goals.</p>
+    </section>
+
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>B.Tech</h3>
+            <p>SRM University, 2023-2027</p>
+            <p>GPA: 8.08</p>
+        </div>
+        <div class="education-item">
+            <h3>Intermediate</h3>
+            <p>Sri Chaitanya, Guntur (2021–2023)</p>
+            <p>Percentage: 96.5%</p>
+        </div>
+        <div class="education-item">
+            <h3>SSC</h3>
+            <p>Srinivasa High School,Pedanandipadu (2021)</p>
+            <p>Percentage: 96%</p>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2>Experience</h2>
+        <div class="experience-item">
+            <h3>Full Stack Developer Intern</h3>
+            <p>Edunet Foundation, 2025</p>
+            <p>Developed client websites using HTML, CSS, JavaScript, Node.js, and MongoDB.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Hospital Management System</h3>
+                <p>Built a full-stack website using HTML, CSS, JavaScript, PHP, and SQL. Patients can book appointments, and doctors can manage schedules and leaves.</p>
+            </div>
+            <div class="project-card">
+                <h3>Student Performance Predictor</h3>
+                <p>Created a Python program to analyze student marks and attendance, providing personalized suggestions to improve scores.</p>
+            </div>
+            <div class="project-card">
+                <h3>Number Guessing Game</h3>
+                <p>Developed a simple game using C++ where the player guesses a randomly generated number.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">PHP</div>
+            <div class="skill">SQL</div>
+            <div class="skill">C++</div>
+            <div class="skill">Python</div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:gopi831761@gmail.com" method="POST" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
